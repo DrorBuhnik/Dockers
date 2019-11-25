@@ -10,6 +10,6 @@ RUN apt-get update \
         libsm6 \
         libxext6 \
         libxrender-dev \
-        jq
+        jq \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
