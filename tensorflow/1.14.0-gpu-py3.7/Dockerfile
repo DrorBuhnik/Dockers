@@ -6,7 +6,7 @@ ARG CUDA=10.0
 ARG CUDADASH=10-0
 ARG CUDNN=7.4.1.5-1
 ARG PYTHON3=python3.7
-ARG TF_PACKAGE=tensorflow-gpu~=2.0.0
+ARG TF_PACKAGE=tensorflow-gpu==1.14.0
 
 RUN apt-get update \
         && apt-get install nvinfer-runtime-trt-repo-ubuntu1604-5.0.2-ga-cuda${CUDA} \
