@@ -1,4 +1,4 @@
-FROM drorbuhnik/tensorflow:1.14.0-gpu-py3.7
+FROM drorbuhnik/tensorflow:2.0.0-gpu-py3.7
 
 RUN curl -sSL https://sdk.cloud.google.com | bash 
 
