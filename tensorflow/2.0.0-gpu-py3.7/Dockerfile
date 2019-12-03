@@ -4,7 +4,7 @@ ARG CUDA=10.0
 FROM nvidia/cuda:${CUDA}-base-ubuntu${UBUNTU_VERSION} as base
 ARG CUDA=10.0
 ARG CUDADASH=10-0
-ARG CUDNN=7.4.1.5-1
+ARG CUDNN=7.6.5.32-1
 ARG PYTHON3=python3.7
 ARG TF_PACKAGE=tensorflow-gpu==2.0.0
 
